@@ -1,0 +1,60 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/check-user-names",
+      "handler": "check-user-name.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/check-user-names/count",
+      "handler": "check-user-name.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/check-user-names/:id",
+      "handler": "check-user-name.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/checkusername/:id",
+      "handler": "check-user-name.checkUsername",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/check-user-names",
+      "handler": "check-user-name.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/check-user-names/:id",
+      "handler": "check-user-name.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/check-user-names/:id",
+      "handler": "check-user-name.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
